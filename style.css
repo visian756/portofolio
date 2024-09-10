@@ -1,0 +1,170 @@
+/* Header */
+.header {
+  margin: 30px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 50px;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  list-style-type: none;
+}
+.menu li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+.tombol button {
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  width: 130px;
+  height: 30px;
+  font-weight: bold;
+}
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 150px 400px;
+  margin: 0 50px;
+}
+.hero h1 {
+  font-size: 52px;
+  margin: 0;
+}
+.hero p {
+  padding: 0 120px;
+}
+/* Project */
+.project {
+  margin: 0 50px;
+}
+.project-all {
+  text-align: center;
+  margin: 40px 0 0;
+  font-size: 24px;
+}
+.project-header {
+  width: 450px;
+}
+.project-header h2 {
+  font-size: 32px;
+}
+.project-header p {
+  font-size: 24px;
+}
+/* Card */
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  border: 2px solid black;
+  width: 20%;
+  height: 400px;
+  padding: 15px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.image {
+  height: 200px;
+  background-image: url("./asset/gambar4.png");
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.image2 {
+  height: 200px;
+  background-image: url("./asset/gambar2.png");
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.image3 {
+  height: 200px;
+  background-image: url("./asset/gambar1.png");
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.image4 {
+  height: 200px;
+  background-image: url("./asset/gambar3.png");
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.judul {
+  background-color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100px;
+  height: fit-content;
+  border-radius: 10px;
+}
+.card-text {
+  display: flex;
+  justify-content: space-between;
+}
+/* about */
+.about {
+  margin:  300px 50px;
+}
+.about h2{
+  font-size: 32px;
+  margin: 0 0 70px;
+}
+.about .content {
+  display: flex;
+  justify-content: space-between;
+}
+.about .image{
+  width: 600px;
+  background-image: url('./asset/Tim-Berners-Lee.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.about .description {
+  width: 600px;
+  font-size: 24px;
+}
+
+/* quote-text */
+.quote-text {
+  background-color: #f0f0f0;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+}
+
+/* footer */
+.footer {
+  margin: 50px 50px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer ul{
+  padding: 0px;
+  margin-top: 40px;
+}
+.footer li{
+  list-style-type: none;
+}
+
+.footer li a{
+  text-decoration: none;
+  color: blue;
+}
